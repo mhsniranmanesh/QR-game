@@ -7,6 +7,5 @@ local_settings.py
 db.sqlite3
 media
 static/*
-manage.py
 googlebazi/wsgi.py
 .DS_Store
