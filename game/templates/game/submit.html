@@ -1,0 +1,41 @@
+{% load staticfiles %}
+
+<!DOCTYPE HTML>
+<!--
+	Eventually by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>تبریک !</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{% static 'game/assets/css/main.css' %}" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1 dir="rtl">:)</h1>
+				<p dir="rtl">
+                  بارکد با موفقیت برای شما ثبت شد.
+                </p>
+                <p dir="rtl">
+              برای اطلاع از وضعیت تعداد بارکد های شما و بقیه بازدیدکنندگان به غرفه دبیرستان انرژی اتمی مراجعه کنید.
+                </p>
+
+                <h2 dir="rtl">آیا میدانستید ؟</h2>
+                <p dir="rtl">
+             {{ slogan }}
+                </p>
+
+			</header>
+
+
+
+		<!-- Scripts -->
+			<script src="{% static 'game/assets/js/main.js' %}"></script>
+
+	</body>
+</html>
